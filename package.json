@@ -1,0 +1,29 @@
+{
+  "name": "zenn-kohdice",
+  "version": "1.0.0",
+  "description": "Writing and storing Zenn articles.",
+  "scripts": {
+    "dev": "npx zenn preview",
+    "lint": "textlint articles/* books/* README.md",
+    "lint:fix": "textlint --fix articles/* books/* README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kohdice/zenn-kohdice.git"
+  },
+  "author": "kohdice",
+  "bugs": {
+    "url": "https://github.com/kohdice/zenn-kohdice/issues"
+  },
+  "homepage": "https://github.com/kohdice/zenn-kohdice#readme",
+  "volta": {
+    "node": "18.16.0"
+  },
+  "devDependencies": {
+    "textlint": "^13.3.3",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+    "textlint-rule-preset-jtf-style": "^2.3.13",
+    "textlint-rule-prh": "^5.3.0",
+    "zenn-cli": "^0.1.144"
+  }
+}
